@@ -7,13 +7,14 @@ public class AlohaWindow{
 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	frame.setSize(500,200);
 	frame.setTitle("タパ");
-
 	frame.setLayout(new FlowLayout());
+	
 	JLabel label=new JLabel("HELLO");
 	Container ctnr=frame.getContentPane();
 	ctnr.add(label);
 
 	JButton button=new JButton("CLICK");
+	Container ctnr2=frame.getContentPane();
 	ctnr.add(button);
 
 	frame.setVisible(true);
